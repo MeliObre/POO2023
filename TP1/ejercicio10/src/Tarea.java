@@ -52,7 +52,6 @@ public class Tarea {
         if (estado) {
             mensaje += " Completa";
         }
-
         return mensaje;
     }
 }

@@ -4,38 +4,42 @@ public class Tarea {
     private String descripcion;
     private String prioridad;
     private boolean estado;
-    private LocalDate fecha;
+    private LocalDate fechaLimite;
 
-    public Tarea (String descripcion, String prioridad, LocalDate fecha){
-        this.descripcion=descripcion;
-        this.prioridad=prioridad;
-        this.estado=false; //La inicializo como incompleta
-        this.fecha=fecha;
+    public Tarea(String descripcion, String prioridad, LocalDate fechaLimite) {
+        this.descripcion = descripcion;
+        this.prioridad = prioridad;
+        this.estado = false; // Inicialmente, la tarea está incompleta.
+        this.fechaLimite = fechaLimite;
     }
-    public void modificarDes(String nuevaDescripcion){
-        this.descripcion=nuevaDescripcion;
+
+    public void modificarDescripcion(String nuevaDescripcion) {
+        this.descripcion = nuevaDescripcion;
     }
-    public  void cambiarPrioridad(String nuevaPrioridad){
-        this.prioridad=nuevaPrioridad;
+
+    public void cambiarPrioridad(String nuevaPrioridad) {
+        this.prioridad = nuevaPrioridad;
     }
-    public void  terminada(){
-        this.estado=true;
+
+    public void terminarTarea() {
+        this.estado = true;
     }
-    public  boolean esVacia(){
-        return !estado && LocalDate.now().isAfter(fecha);
+
+    public boolean estaVencida() {
+        LocalDate fechaActual = LocalDate.now();
+        return !estado && fechaLimite.isBefore(fechaActual);
     }
-    public boolean completa(){
+
+    public boolean estaCompleta() {
         return estado;
     }
-    public String mostrarTarea (){
-        String mensaje="";
-        if (esVacia()){
-            mensaje+=" Vencida";
+
+    public String mostrarTarea() {
+        String mensaje = "";
+        if (estaCompleta()) {
+            mensaje += "(Vencida) ";
         }
-        mensaje+=descripcion+"- Prioridad: "+ prioridad;
-        if (estado){
-            mensaje+= " Completa";
-        }
+        mensaje += descripcion + " - Prioridad: " + prioridad;
         return mensaje;
     }
 }

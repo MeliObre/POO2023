@@ -8,9 +8,9 @@ public class Main {
         AdTareas administrador = new AdTareas();
 
         // Agregar varias tareas
-        administrador.agregarTarea(new Tarea("Comprar víveres", "Alta", LocalDate.now().plusDays(3)));
-        administrador.agregarTarea(new Tarea("Pagar facturas", "Media", LocalDate.now().plusDays(5)));
-        administrador.agregarTarea(new Tarea("Hacer ejercicio", "Baja", LocalDate.now()));
+        administrador.agregarTarea(new Tarea("Terminar TP de POO", "Alta", LocalDate.now().plusDays(3)));
+        administrador.agregarTarea(new Tarea("Terminar presentacion para la pasantia", "Media", LocalDate.now().plusDays(5)));
+        administrador.agregarTarea(new Tarea("Terminar de ver Invasion secreta de Marvel", "Baja", LocalDate.now()));
         administrador.agregarTarea(new Tarea("Estudiar Java", "Alta", LocalDate.now().plusDays(2)));
 
         // Marcar algunas tareas como realizadas

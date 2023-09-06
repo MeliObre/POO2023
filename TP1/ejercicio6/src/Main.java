@@ -25,15 +25,12 @@ public class Main {
         libro2.prestar();
         libro4.prestar();// Intentando prestar un libro con un ejemplar;
 
-
-
         libro1.devolver();
         libro1.prestar();
         libro1.prestar();
 
         System.out.print(" Cantidad de libros prestados: "+ biblioteca.cantidadPrestados()+" \n ");
         System.out.print(" prestados de "+libro1.getTitulo()+" "+ libro1.getEjemPrestados());
-
 
     }
 }
