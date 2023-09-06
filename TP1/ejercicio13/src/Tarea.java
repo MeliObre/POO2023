@@ -52,7 +52,7 @@ public class Tarea {
 
     @Override
     public String toString() {
-        return "Título: " + titulo + " - Prioridad: " + prioridad + " - Fecha de Vencimiento: " + fechaVencimiento +
-                " - Realizada: " + realizada + " - Fecha de Realización: " + fechaRealizacion + " - Colaborador: " + colaborador;
+        return "- Título: " + titulo + "\n"+" - Prioridad: " + prioridad +"\n"+ " - Fecha de Vencimiento: " + fechaVencimiento +"\n"+
+                " - Realizada: " + realizada +"\n"+ " - Fecha de Realización: " + fechaRealizacion + "\n"+" - Colaborador: " + colaborador;
     }
 }
