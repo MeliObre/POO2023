@@ -5,9 +5,11 @@ Cuando un cliente realiza una compra, verifica la fecha o el período de validez
 public class Combustible {
     private String nombre;
     private double precioVenta;
+    private Date fechaValidezPrecio; // Fecha o período de validez del precio
 
     public String getNombre() {
+
         return nombre;
     }
-    private Date fechaValidezPrecio; // Fecha o período de validez del precio
+
 }

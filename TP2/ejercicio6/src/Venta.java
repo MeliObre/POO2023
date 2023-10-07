@@ -11,14 +11,17 @@ public class Venta {
     private Empleado empleado;
 
     public Cliente getCliente() {
+
         return cliente;
     }
 
     public double getImporte() {
+
         return importe;
     }
 
     public Combustible getCombustible() {
+
         return combustible;
     }
 }
