@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="02f12cdc-5687-4846-bead-fe90328362a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ejercicio6/src/Combustible.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/src/Combustible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio6/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicio6/src/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio6/src/Venta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CajaDeAhorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CuentaCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CuentaNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio8/src/Diario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio8/src/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio8/src/Publicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio8/src/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicio8/src/Tesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio5/src/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio5/src/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio5/src/CuentaCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio5/src/CuentaCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejercicio8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicio8/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -23,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/HP/OneDrive/Documentos/GitHub/POO2023/TP2/ejercicio5",
+    "last_opened_file_path": "C:/Users/HP/OneDrive/Documentos/GitHub/POO2023/TP2/ejercicio13",
     "onboarding.tips.debug.path": "C:/Users/HP/OneDrive/Documentos/GitHub/POO2023/TP2/ejercicio12/src/Main.java"
   }
 }]]></component>

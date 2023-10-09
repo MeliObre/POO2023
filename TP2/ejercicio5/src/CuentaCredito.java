@@ -55,5 +55,6 @@ public class CuentaCredito {
     }
 
     public double getMontoDisponibleParaCompras() {
-        return limite - getSaldoDeudor();}
+        return limite - getSaldoDeudor();
+    }
 }
